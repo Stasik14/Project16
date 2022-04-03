@@ -30,6 +30,7 @@ void Student::setAge(string age) {
 	int number = stoi(age);
 	if (number >= 14 && number <= 80) {
 		this->age = age;
+		}
 	}
 
 	string Student::getStringAge() {
